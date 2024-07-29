@@ -25,24 +25,34 @@ Principais Rotas : Identificação das rotas de voos mais frequentes.
 Atrasos por Rota : Análise das rotas com maior tempo médio de atraso.
 Taxa de Cancelamento : Avaliação das rotas com maior índice de cancelamento de voos.
 Eficiência das Rotas : Identificação das rotas mais e menos eficientes em termos de desempenho.
-4. Análise do Atraso das Rotas
+
+
+5. Análise do Atraso das Rotas
 Tempo Médio de Atraso : Cálculo do tempo médio de atraso dos voos utilizando as colunas ArrDelayMinutese DepDelayMinutes.
 Fatores Correlacionados : Investigação dos fatores que possuem maior clareza com o atraso de um voo.
+
 Modelagem
-5. Modelo de Regressão Linear
+
+7. Modelo de Regressão Linear
 Foi construído um modelo de regressão linear para estimar o tempo de atraso de um voo, utilizando DepDelayMinutescomo variável-alvo.
 O modelo incorpora variáveis ​​dummy para categorias, incluindo o mês do ano e rotas específicas, a fim de melhorar a acurácia das variações.
+
 Tecnologias Usadas
+
 Python : Linguagem de programação utilizada para análises e modelagens.
 Pandas : Biblioteca para manipulação e análise de dados.
 NumPy : Biblioteca para cálculos numéricos.
 Scikit-learn : Utilizada para modelagem preditiva e análise estatística.
 Matplotlib e Seaborn : Bibliotecas para visualização de dados.
+
 Como Executar o Projeto
+
 Pré-requisitos
 Python 3.x
 Bibliotecas: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+
 Instalação
+
 Clonar este repositório.
 
 git clone https://github.com/RaquelFonsec/Setor-Aero-dados-.git
